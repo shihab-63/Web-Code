@@ -31,12 +31,12 @@ const Navbar = () => {
     <>
       <MyContainer className={"py-4 flex justify-between items-center "}>
         {/* Logo Area! */}
-        <figure className="flex items-center gap-2">
+        <Link className="flex items-center gap-2">
           <img src={logo} alt="Home Logo" />
           <h2 className="text-2xl font-supermercadoone md:text-3xl text-gray-600 font-semibold">
             Web<span>Code</span>
           </h2>
-        </figure>
+        </Link>
 
         {/* NavLink Area! */}
         <ul className="hidden md:flex items-center gap-5 transition-all duration-500">
